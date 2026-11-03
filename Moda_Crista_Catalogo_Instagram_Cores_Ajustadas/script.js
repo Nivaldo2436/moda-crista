@@ -1,6 +1,6 @@
 // MODA CRISTÃ — CATÁLOGO DIGITAL
 // WhatsApp: altere abaixo se o número da loja mudar.
-const WHATSAPP_NUMBER = "5544999117660";
+const WHATSAPP_NUMBER = "5544999461196";
 const SIZES = ["P", "M", "G", "GG", "XG"];
 
 // Catálogo: mantivemos os 3 modelos anteriores e adicionamos os 3 novos.
