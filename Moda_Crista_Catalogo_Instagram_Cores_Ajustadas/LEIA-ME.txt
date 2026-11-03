@@ -1,0 +1,54 @@
+MODA CRISTÃ — CATÁLOGO DIGITAL PARA NETLIFY
+===========================================
+
+IDENTIDADE
+Nome da loja: Moda Cristã
+Instagram informado na referência visual: @modacristanay
+Paleta: ameixa/vinho, creme e dourado, com verde nos botões de WhatsApp.
+
+PÁGINAS
+- index.html: página inicial e escolha entre Masculino e Feminino.
+- masculino.html: mostra apenas a coleção masculina.
+- feminino.html: mostra apenas a coleção feminina.
+
+CATÁLOGO
+Foram mantidos os três modelos que já estavam no site e adicionados os três produtos das novas fotos:
+1. Camiseta Gucci — R$ 69,90
+2. Camiseta Jesus Meu Maior Amor — R$ 59,90
+3. Camiseta D&G — R$ 69,90
+4. Camiseta Preta Estilo Britânico — R$ 69,90
+5. Camiseta Preta Clássica — R$ 69,90
+6. Camiseta Em Tudo Dai Graças — R$ 59,90
+
+Os preços são sugestões iniciais e devem ser confirmados com o custo real, taxas e margem da loja.
+As fotos dos três produtos novos foram preparadas em estilo de catálogo sem embalagem plástica. Confira os detalhes e substitua por fotos próprias em boa luz se precisar garantir correspondência exata com o produto físico.
+
+TAMANHOS
+Cada produto permite selecionar P, M, G, GG ou XG. O botão do WhatsApp inclui o nome, preço e tamanho selecionado na mensagem.
+Os tamanhos apresentados são opções de seleção no site; confirme a grade real de cada peça antes de anunciar disponibilidade.
+
+COMO EDITAR PRODUTOS E PREÇOS
+Abra script.js e edite a lista "products".
+- name: nome do produto
+- gender: "masculino" ou "feminino"
+- description: descrição
+- price: preço em reais (exemplo: 69.90)
+- image: caminho da foto dentro de assets/
+- tag: etiqueta opcional
+
+Para adicionar ou excluir produtos, edite a lista mantendo vírgulas e chaves corretamente.
+O número de WhatsApp está no início do script.js: WHATSAPP_NUMBER.
+
+PUBLICAR NA NETLIFY
+1. Extraia o ZIP.
+2. Envie a pasta inteira em https://app.netlify.com/drop
+3. Para atualizar, envie a pasta completa novamente.
+Não remova as pastas assets nem os arquivos HTML, CSS e JS.
+
+
+CONTATO PELO INSTAGRAM
+----------------------
+Instagram da loja: @modacristanay
+Link: https://www.instagram.com/modacristanay/
+O link aparece na área de contato e no rodapé de todas as páginas.
+Ajustamos também o contraste do tema claro para melhorar a leitura de títulos, descrições, preços e navegação.
