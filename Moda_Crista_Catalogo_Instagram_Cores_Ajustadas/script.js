@@ -11,7 +11,7 @@ const products = [
     name: "Camiseta Gucci",
     gender: "masculino",
     description: "Modelo estampado. Consulte disponibilidade.",
-    price: 69.90,
+    price: 59.90,
     image: "assets/manequim-gucci.jpg",
     tag: "DESTAQUE"
   },
