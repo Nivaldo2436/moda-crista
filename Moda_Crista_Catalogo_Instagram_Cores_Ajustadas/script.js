@@ -20,7 +20,7 @@ const products = [
     name: "Camiseta Jesus Meu Maior Amor",
     gender: "feminino",
     description: "Estampa temática. Consulte disponibilidade.",
-    price: 59.90,
+    price: 55.00,
     image: "assets/manequim-jesus.jpg",
     tag: "FÉ E ESTILO"
   },
@@ -38,7 +38,7 @@ const products = [
     name: "Camiseta Preta Estilo Britânico",
     gender: "masculino",
     description: "Camiseta preta com estampa e detalhes em tom claro.",
-    price: 69.90,
+    price: 60.00,
     image: "assets/camiseta-burberry-clean.jpg",
     tag: "NOVIDADE"
   },
