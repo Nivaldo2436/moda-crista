@@ -11,7 +11,7 @@ const products = [
     name: "Camiseta Gucci",
     gender: "masculino",
     description: "Modelo estampado. Consulte disponibilidade.",
-    price: 59.90,
+    price: 69.90,
     image: "assets/manequim-gucci.jpg",
     tag: "DESTAQUE"
   },
@@ -20,7 +20,7 @@ const products = [
     name: "Camiseta Jesus Meu Maior Amor",
     gender: "feminino",
     description: "Estampa temática. Consulte disponibilidade.",
-    price: 55.00,
+    price: 500.00,
     image: "assets/manequim-jesus.jpg",
     tag: "FÉ E ESTILO"
   },
