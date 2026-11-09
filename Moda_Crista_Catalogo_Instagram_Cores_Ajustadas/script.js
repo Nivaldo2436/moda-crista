@@ -27,7 +27,7 @@ const products = [
   {
     id: 3,
     name: "Camiseta D&G",
-    gender: "feminino",
+    gender: "masculino",
     description: "Modelo estampado. Consulte disponibilidade.",
     price: 55.90,
     image: "assets/manequim-dg.jpg",
