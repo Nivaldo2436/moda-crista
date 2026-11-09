@@ -25,7 +25,7 @@ const products = [
     tag: "FÉ E ESTILO"
   },
   {
-    id: 3,
+     id: 3,
     name: "Camiseta D&G",
     gender: "masculino",
     description: "Modelo estampado. Consulte disponibilidade.",
