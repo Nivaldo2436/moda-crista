@@ -30,7 +30,7 @@ const products = [
     gender: "masculino",
     description: "Modelo estampado. Consulte disponibilidade.",
     price: 55.90,
-    image: "camiseta-dg-manequim.png",
+    image: "assets/camiseta-dg-manequim.jpg",
     tag: "DESTAQUE"
   },
   {
