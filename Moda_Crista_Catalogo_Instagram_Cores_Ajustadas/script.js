@@ -30,7 +30,7 @@ const products = [
     gender: "masculino",
     description: "Modelo estampado. Consulte disponibilidade.",
     price: 55.90,
-    image: "assets/camiseta-dg-masculina.png",
+    image: "assets/camiseta-dg-masculina.jpg",
     tag: "DESTAQUE"
   },
   {
