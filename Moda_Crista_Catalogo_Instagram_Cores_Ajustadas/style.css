@@ -142,3 +142,34 @@ footer>p{color:#eee1e9}
 .other-category span{color:#514852}
 .other-category a{color:#60334f;font-weight:800}
 @media(max-width:700px){.contact-strip{gap:12px;flex-wrap:wrap}.instagram-button{margin-left:0}.contact-strip>div{width:100%}}
+
+/* CORREÇÃO DAS IMAGENS DOS MANEQUINS */
+.product-image {
+    height: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: #f4edf1;
+}
+
+.product-image .real-product {
+    width: 100%;
+    height: 100%;
+    object-fit: contain !important;
+    object-position: center center !important;
+    padding: 5px;
+    display: block;
+}
+
+/* AJUSTE PARA CELULAR */
+@media (max-width: 520px) {
+    .product-image {
+        height: 230px;
+    }
+
+    .product-image .real-product {
+        object-fit: contain !important;
+    }
+}
+
